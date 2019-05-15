@@ -9,6 +9,7 @@ body {
     background: #777;
     width:960px;
     font-size:18px;
+    margin:0 auto;
 }
 header, nav, section, aside, footer {
     background:#ebebeb
@@ -36,15 +37,17 @@ section {
     background: #777;
     overflow:auto;
     padding:20px;
+    margin:10px;
 }
 
 .smallbox {
-    padding:20px;
+    padding:10px;
+    margin:10px;
 }
 
 aside {
     width:440px;
-    height:260px;
+    height:254px;
     float:right;
     padding:20px;
 }
@@ -66,9 +69,3 @@ footer {
     margin-top: 20px;
     clear: both;
 }
-
-.clearfix::after {
-    content: " ";
-    display: block;
-    clear: both;
-  }
